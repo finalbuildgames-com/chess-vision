@@ -1,7 +1,11 @@
 .DS_Store
+.expo/
+.expo-shared/
+.npm-cache/
 node_modules/
 coverage/
 dist/
+web-build/
 .env
 .env.*
 !.env.example

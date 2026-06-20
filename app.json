@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Chess Vision",
+    "slug": "chess-vision",
+    "version": "0.1.0",
+    "orientation": "default",
+    "scheme": "chess-vision",
+    "userInterfaceStyle": "automatic",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.finalbuildgames.chessvision"
+    },
+    "android": {
+      "package": "com.finalbuildgames.chessvision"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
