@@ -1,0 +1,14 @@
+{
+  "name": "chess-vision",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A lightweight starter project for chessboard vision experiments.",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
