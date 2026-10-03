@@ -1,38 +1,31 @@
 # Chess Vision
 
-Chess Vision is an Expo React Native starter for experimenting with chessboard vision workflows across iOS, Android, tablets, and web.
+An Expo and React Native starter for chessboard vision experiments. It currently provides a responsive app shell for phones, tablets, and web. Chessboard recognition is not implemented yet.
 
-## Setup
+## Install
+
+Use Node.js 20 or later and npm.
 
 ```sh
-npm install
+npm ci
 ```
 
 ## Run
 
 ```sh
 npm start
-npm run ios
-npm run android
-npm run web
 ```
 
-## Verify
+Use Expo's terminal menu to open a target, or run `npm run web`, `npm run android`, or `npm run ios`. Native targets require a compatible device or simulator.
+
+`App.js` contains the app shell. `src/deviceProfile.js` selects layouts by screen width and platform.
+
+## Check
 
 ```sh
 npm test
-npx expo install --check
-npx expo-doctor
 ```
 
-## What's included
+## License
 
-- `App.js` renders a responsive React Native shell for phone, tablet, desktop, and web runtimes.
-- `app.json` declares iOS, Android, and web targets with Expo-managed configuration.
-- `src/deviceProfile.js` centralizes width and platform mapping for reusable layout decisions.
-- `test/react-native-config.test.js` pins the project setup with Node's built-in test runner.
-
-## Next Steps
-
-- Choose the first input target: board photo, livestream frame, screen capture, or recorded clip.
-- Add sample fixtures and expected FEN outputs for repeatable evaluation.
+MIT. See [LICENSE](LICENSE).
